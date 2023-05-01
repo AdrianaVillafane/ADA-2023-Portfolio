@@ -2,24 +2,17 @@
   margin: 0;
   padding: 0;
 }
-.favicon {
-  color: antiquewhite;
-  background-color: antiquewhite;
-}
+
 body {
   background-color: rgb(139, 24, 116);
   color: rgb(252, 79, 0);
+  font-family: "Lobster", cursive;
 }
 .barra {
-  
   background-color: rgb(183, 19, 117);
   display: flex;
   justify-content: end;
-  
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  
- 
-  
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 1em;
   position: fixed;
   top: 0;
@@ -32,10 +25,68 @@ a {
   text-decoration: none;
   line-height: bold;
   font-size: 1.5em;
-  
-  
 }
 .presentacion {
-  padding-top: 150px;
- 
+  padding-top: 100px;
+  display: flex;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 80px 10px;
+  padding-bottom: 80px;
+}
+.presentacionTexto{
+  text-align: center;
+  padding: 10px;
+  }
+  
+  
+  .boton{
+    padding: 5px;
+    background-color: rgb(247, 149, 64);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    font: 1em sans-serif;
+  }
+.presentacionImg{
+width: 600px;
+
+}
+h4{ 
+  font-size: 2.5em;
+}
+h1{
+  font-size: 3.5em;
+}
+p{
+  font-size: 1.5em;
+  line-height: 2;
+}
+.contacto {
+  text-align: center;
+}
+
+.conocimiento {
+  text-align: center;
+}
+
+.contenedorConocimientoUno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 60px;
+  margin-top: 50px;
+}
+.contenedorConocimientoDos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 60px;
+  margin-bottom: 100px;
+}
+
+.logoConocimiento {
+  width: 150px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  display: inline;
+  border-radius: 20px;
+  margin: 10px;
 }
