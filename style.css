@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.favicon {
+  color: antiquewhite;
+  background-color: antiquewhite;
+}
+body {
+  background-color: rgb(139, 24, 116);
+  color: rgb(252, 79, 0);
+}
+.barra {
+  
+  background-color: rgb(183, 19, 117);
+  display: flex;
+  justify-content: end;
+  
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  
+ 
+  
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+a {
+  color: rgb(252, 79, 0);
+  text-align: center;
+  padding-right: 80px;
+  text-decoration: none;
+  line-height: bold;
+  font-size: 1.5em;
+  
+  
+}
+.presentacion {
+  padding-top: 150px;
+ 
+}
