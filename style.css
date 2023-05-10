@@ -1,92 +1,145 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
 }
-
 body {
-  background-color: rgb(139, 24, 116);
-  color: rgb(252, 79, 0);
-  font-family: "Lobster", cursive;
-}
-.barra {
   background-color: rgb(183, 19, 117);
+}
+nav {
+  width: 100vw;
+  background-color: rgb(139, 24, 116);
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  padding: 1em;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  padding: 2vw;
+  
 }
 a {
-  color: rgb(252, 79, 0);
-  text-align: center;
-  padding-right: 80px;
+  color: rgb(247, 149, 64);
+  padding: 10px;
+  font-size: 0.9em;
   text-decoration: none;
-  line-height: bold;
-  font-size: 1.5em;
+}
+.icon {
+  display: none;
 }
 .presentacion {
-  padding-top: 100px;
+  width: 100vw;
   display: flex;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  margin: 80px 10px;
-  padding-bottom: 80px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: normal;
+  align-content: center;
 }
-.presentacionTexto{
-  text-align: center;
-  padding: 10px;
-  }
-  
-  
-  .boton{
-    padding: 5px;
-    background-color: rgb(247, 149, 64);
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    font: 1em sans-serif;
-  }
-.presentacionImg{
-width: 600px;
-
-}
-h4{ 
-  font-size: 2.5em;
-}
-h1{
-  font-size: 3.5em;
-}
-p{
-  font-size: 1.5em;
+.presentacionTexto {
+  width: 50%;
+  margin: 10px 60px;
   line-height: 2;
+  font-weight: 700;
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+  
 }
-.contacto {
-  text-align: center;
+.presentacionImg {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-
+img{
+    border-radius: 30px;
+}
+.boton{
+    background-color: rgb(252, 79, 0);
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-top: 20px;
+    
+}
 .conocimiento {
   text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+       line-height: 1;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+     margin-top: 50px;
+    
+   
 }
-
-.contenedorConocimientoUno {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 50px 60px;
-  margin-top: 50px;
+.contenedorConocimiento{
+    width: 75vw;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+      
+   }
+.logoConocimiento{
+    border: 4px solid grey;
+     border-radius: 20px;
+    margin: 20px 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 20vw;
+    height: 45vh;
+    padding: 15px;
+    
 }
-.contenedorConocimientoDos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 50px 60px;
-  margin-bottom: 100px;
+.logoConocimiento:hover{
+  border: 4px solid rgb(252, 79, 0);;
 }
-
-.logoConocimiento {
-  width: 150px;
+.fa-quote-right{
+  font-size: 1.5em;
+}
+.frase{
+  text-align: center;
+    height: 95vh;
+  margin: 80px 50px;
+  background-color: rgb(247, 149, 64);
+  border-radius: 30px;
+  border: 4px solid rgb(252, 79, 0);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  display: inline;
-  border-radius: 20px;
-  margin: 10px;
+  line-height: 2;
+  font-size: 2.5em;
+  }
+
+ul{
+  list-style: none;
+  
+  
+}
+
+h2{
+  font-size: 3em;
+}
+.arrow-icon {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+  .barra {
+    display: none;
+  }
+  
+      .frase{
+    height: 100vh;
+    line-height: normal;
+    font-size: 0.7em;
+  }
+  .logoConocimiento{
+    height: 15vh;
+  }
 }
