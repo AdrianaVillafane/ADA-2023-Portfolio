@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
 @font-face {
@@ -19,17 +18,35 @@ nav {
   justify-content: flex-end;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 2vw;
+  
 }
+
+ 
+}
+ li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+ul{
+  display: flex;
+    flex-direction: row;
+    align-items: end;
+    list-style: none;
+}
+
+
 a {
   color: rgb(247, 149, 64);
   padding: 10px;
   font-size: 2em;
   text-decoration: none;
 }
+
 .icon {
   display: none;
 }
-h1{
+h1 {
   font-family: "Boneribbon-Bold";
   font-size: 3em;
 }
@@ -77,12 +94,10 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-   margin:150px 100px
+  margin: 150px 100px;
 }
-.fa-brands{
+.fa-brands {
   font-size: 180px;
- 
-
 }
 .contenedorConocimiento {
   width: 70vw;
@@ -98,7 +113,6 @@ img {
   width: 28%;
   height: 50%;
   padding: 10px;
-  
 }
 
 .logoConocimiento:hover {
@@ -111,35 +125,31 @@ img {
 }
 .frase {
   text-align: center;
-  height: 95vh;
+  height: 75vh;
   margin: 80px 50px;
   background-color: rgb(247, 149, 64);
   border-radius: 30px;
   border: 4px solid rgb(252, 79, 0);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  line-height: 2;
-  font-size: 2em;
-}
-
-ul {
-  list-style: none;
+  line-height: 0.5;
+  font-size: 2.5em;
+ 
 }
 
 h2 {
   font-size: 75px;
 }
-.proyectos{
+.proyectos {
   text-align: center;
 }
-.contenedorProyectos{
-       width: 100vw;
-    min-height: 75vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   
-  }
-.proyecto{
+.contenedorProyectos {
+  width: 100vw;
+  min-height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.proyecto {
   border: 4px solid grey;
   border-radius: 20px;
   margin: 20px 20px;
@@ -149,12 +159,12 @@ h2 {
   padding: 10px;
   text-align: center;
   font-size: 20px;
-   }
-   .proyecto:hover {
-    border: 4px solid rgb(252, 79, 0);
-  }
+}
+.proyecto:hover {
+  border: 4px solid rgb(252, 79, 0);
+}
 
- img{
+img {
   width: 200px;
 }
 .arrow-icon {
@@ -165,43 +175,50 @@ h2 {
   height: 50px;
 }
 .contacto {
-  width: 80vw;
+  width: 88vw;
   min-height: 90vh;
- background-color: rgb(139, 24, 116);
+  background-color: rgb(139, 24, 116);
   display: flex;
   justify-content: center;
   border-radius: 30px;
   border: 3px solid grey;
   padding: 30px;
- margin: 0 auto;
-  }
-
+  margin: 50px auto;
+}
+p{
+  font-size: 20px;
+}
 .contactoA {
-  width: 40vw;
+  width: 38vw;
   height: 80vh;
-  border-top: 3px solid grey;
-  border-bottom: 3px solid gray;
-  border-left: 3px solid grey;
+  border: 3px solid grey;
   border-radius: 20px;
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: center;
   background-color: rgb(183, 19, 117);
+  margin-right: 10px;
+  line-height: 2;
+}
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
  
 }
-
-
-ul{
-  display: flex;
-  flex-direction: column;   
-  align-items: start;
-}
-.icono-contacto{
+.icono-contacto {
   color: rgb(252, 79, 0);
   font-size: 30px;
-  background-color: rgb(0, 0, 0);
-  padding: 3px;
+  background-color: rgb(183, 19 117);
+  padding: 10px;
+
+  margin-left: 20px;
+}
+.icono-contacto:hover {
+  background-color: rgb(139, 24, 116);
   border-radius: 50px;
-  margin: 3px;
+  color: rgb(247, 149, 64);
+  height: 50px;
 }
 .contactoB {
   width: 40vw;
@@ -247,26 +264,25 @@ input {
   border-radius: 5px;
 }
 
-@media(max-width:770px) and (min-width:424px){
-  .fa-brands{
+@media (max-width: 768px) and (min-width: 424px) {
+  .fa-brands {
     font-size: 4em;
-  
   }
 }
-@media(max-width:425px) and (min-width:376px){
-  .fa-brands{
+@media (max-width: 425px) and (min-width: 376px) {
+  .fa-brands {
     font-size: 3em;
+  }
+  .logoConocimiento {
+    width: 35%;
+  }
+  h3 {
+    font-size: 12px;
+  }
   
-}
-.logoConocimiento {
-  width:35%;
-}
-h3{
-  font-size: 12px;
-}
-.barraHeader{
-  display: none;
-}
+  .icon{
+    display: block;
+  }
 }
 @media (max-width: 375px) and (min-width: 280px) {
   .barra {
@@ -282,15 +298,13 @@ h3{
     width: 20vw;
     height: 15vh;
   }
-  h3{
+  h3 {
     font-size: 10px;
   }
-  .fa-brands{
+  .fa-brands {
     font-size: 1.5em;
-    }
- .frase{
+  }
+  .frase {
     height: 60vw;
+  }
 }
-}
-
-
