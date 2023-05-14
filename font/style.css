@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Boneribbon-Bold";
+    src: url("/font/Boneribbon-Bold/Boneribbon\ Bold.ttf");
+}
+h1{
+    font-family: "Boneribbon-Bold";
+}
