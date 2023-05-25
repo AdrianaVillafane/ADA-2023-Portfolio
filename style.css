@@ -220,80 +220,10 @@ img {
   width: 3.12rem;
   height: 3.12rem;
 }
-.contacto {
-  width: 72vw;
-  min-height: 90vh;
-  background-color: rgb(139, 24, 116);
-  display: flex;
-  justify-content: start;
-  border-radius: 1.87rem;
-  border: 3px solid grey;
-  padding: 0.18rem;
-  margin: 6rem auto;
-  
-  
-}
 
-.contactoA {
-  width: 35vw;
-  height: 80vh;
-    font-size: 1.8rem;
-  text-align: center;
-  margin: 0.31rem;
-  line-height: 2;
-  
-}
 
-#buscame {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
- 
-}
-.icono-contacto {
-  color: rgb(252, 79, 0);
-  font-size: 1.87rem;
-  background-color: rgb(183, 19 117);
-  padding: 0.62;
-  margin-left: 1.25rem;
-}
-.icono-contacto:hover {
-  background-color: rgb(139, 24, 116);
-  border-radius: 3.12rem;
-  color: rgb(247, 149, 64);
-  height: 3.12rem;
-}
-.contactoB {
-  width: 35vw;
-  height: 80vh;
-   font-size: 1.8rem;
-  text-align: center;
-  margin: 0.93rem;
- 
-}
 
-#form-contacto {
-  margin: 1.87rem;
-   flex-wrap: wrap;;
-  width: 8rem;
-  height: 12rem;
-  margin-top: 4rem;
-  
-}
 
-input {
-  width: 20rem;
-  margin: 5px;
-  font-size: 2rem;
-  border-radius: 0.62rem;
-}
-
-#input-submit {
-  width: 3em;
-  text-align: center;
-  padding: 0.12rem;
-  border-radius: 0.62rem;
-}
 #piecito{
   width: 100vw;
   height: 35vh;
