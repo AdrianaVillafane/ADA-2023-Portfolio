@@ -99,7 +99,8 @@ h3{
   padding: 1.9rem;
 }
 img {
-  border-radius: 1.8rem;
+  
+  border-radius: 50%;
   border: 0.37rem double black;
 }
 .boton {
@@ -209,6 +210,8 @@ img {
 
 img {
   width: 12.5rem;
+  height: 8rem;
+  border-radius: 50%;
 }
 .arrow-icon {
   position: fixed;
@@ -349,6 +352,7 @@ input {
   }
   img{
     width: 5rem;
+    border-radius: 50%;
   }
    h3{
     font-size: 1rem;
@@ -393,5 +397,6 @@ input {
   }
   img{
     width: 5rem;
+    border-radius: 50%;
   }
 }
