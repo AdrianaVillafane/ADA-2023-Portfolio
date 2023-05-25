@@ -30,8 +30,6 @@ body {
   margin: 0 8rem;
  
   }
-  
-
 
 
  li{
@@ -62,19 +60,19 @@ ul{
     text-decoration: none;
    
 }
-
+/*icono hamburguesa*/
 .icon {
   display: none;
 }
 h1 {
   font-family: "Boneribbon-Bold";
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 h2 {
   
   font-family: "Boneribbon-Bold";
   color: black;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 h3{
   color: black;
@@ -129,9 +127,13 @@ img {
   align-items: center;
   margin: 9.37rem 1.6rem;
 }
+/* introduccion de conocimiento*/
 .conocimiento p{
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
+}
+.conocimiento h3{
+  font-size: 2rem;
 }
 .logoConocimiento .fa-brands {
   font-size: 11.25rem;
@@ -158,25 +160,31 @@ img {
 }
 
 /*CITA*/
-.fa-quote-right {
-  width: 50%;
+.fa-quote-right{
+  font-size: 4rem;
+}
+.fa-quote-left{
+  font-size: 4rem;
 }
 .frase {
   text-align: center;
-  height: 75vh;
-  margin: 5rem 3.12rem;
+  margin: 2rem 3rem;
   background-color: rgb(247, 149, 64);
   border-radius: 30px;
   border: 4px solid rgb(252, 79, 0);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   line-height: 1.5;
-  font-size: 2.5rem;
- 
+  padding: 0.5rem;
+  
 }
 .frase p{
   font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+ 
 }
-
+.fa-hand-holding-heart{
+  font-size: 3rem;
+}
 
 .proyectos {
   text-align: center;
@@ -198,6 +206,9 @@ img {
   padding: 10px;
   text-align: center;
  
+}
+.proyecto h3{
+  font-size: 2rem;
 }
 .proyecto:hover {
   border: 0.25rem solid rgb(252, 79, 0);
@@ -317,7 +328,7 @@ input {
   
 }
 
-@media (max-width: 768px) and (min-width: 424px) {
+@media (max-width: 880px) and (min-width: 481px) {
   .logoConocimiento .fa-brands {
     font-size: 4rem;
    
@@ -326,7 +337,7 @@ input {
     font-size: 1.6rem;
   }
 }
-@media (max-width: 425px) and (min-width: 380px) {
+@media (max-width: 480px) and (min-width: 380px) {
   .logoConocimiento .fa-brands {
     font-size: 3rem;
    
@@ -335,7 +346,7 @@ input {
     width: 35%;
   }
  
-  h3 {
+  .logoConocimiento h3 {
     font-size: 0.75rem;
   }
   
@@ -343,7 +354,7 @@ input {
     display: block;
   }
 }
-@media (max-width: 375px) and (min-width: 280px) {
+@media (max-width: 379px) and (min-width: 280px) {
   #barraHeader {
     display: none;
   }
@@ -351,8 +362,8 @@ input {
     display: inline;
   }
 
-  .frase {
-    height: 100vh;
+  .frase p{
+   
     line-height: normal;
     font-size: 0.85rem;
   }
@@ -364,7 +375,7 @@ input {
     font-size: 2.5rem;
    
   }
-  }
+  
   h3 {
     font-size: 0.6rem;
   }
@@ -373,5 +384,8 @@ input {
   }
   .frase {
     height: 60vw;
+  }
+  img{
+    width: 5rem;
   }
 }
