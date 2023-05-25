@@ -207,9 +207,7 @@ img {
   text-align: center;
  
 }
-.proyecto h3{
-  font-size: 2rem;
-}
+
 .proyecto:hover {
   border: 0.25rem solid rgb(252, 79, 0);
 }
@@ -353,7 +351,16 @@ input {
   .icon{
     display: block;
   }
+  img{
+    width: 5rem;
+  }
+   h3{
+    font-size: 1rem;
+  }
 }
+
+
+
 @media (max-width: 379px) and (min-width: 280px) {
   #barraHeader {
     display: none;
