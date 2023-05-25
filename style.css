@@ -221,9 +221,28 @@ img {
   height: 3.12rem;
 }
 
-
-
-
+.sectionContacto{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(139, 24, 116);
+}
+.contactoContainer{
+  width: 70%;
+  height: 20rem;
+  background-color: antiquewhite;
+  margin: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.contactoRedes, .contactoForm{
+  width: 45%;
+  border: 0.12rem solid grey;
+  margin: 0.5rem;
+  border-radius: 2rem;
+}
+.icono-contacto{
+  
+}
 #piecito{
   width: 100vw;
   height: 35vh;
