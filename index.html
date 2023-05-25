@@ -15,17 +15,22 @@
 <body>
     <header>
      
-        <nav>
-          <div class="barraHeader">
-           <ul>
-                <li> <a href="#inicio">Inicio</a></li>
-            
-                 <li> <a href="#conocimientos">Conocimientos</a></li>
-               
-                <li> <a href="#proyectos">Proyectos</a></li>
-               
-                 <li> <a href="#contactame">Contactame</a></li>
-                 </ul>
+        <nav id="navBar">
+          <div id="barraHeader">
+             <ul>
+                <li> 
+                  <a href="#inicio">Inicio</a>
+                </li>
+               <li> 
+                  <a href="#conocimientos">Conocimientos</a>
+                </li>
+                <li> 
+                  <a href="#proyectos">Proyectos</a>
+                </li>
+                 <li> 
+                  <a href="#contactame">Contactame</a>
+                </li>
+                </ul>
               </div>
                 <span class="icon">
                   <a href="#burger"><i class="fa-solid fa-bars"></i></a>
@@ -35,19 +40,19 @@
         <main>
         <article class="presentacion">
             <div class="presentacionTexto">
-            <a name="hola"><h4>¡Hola!, Soy</h4></a>
+            <a name="hola"><h4 class="hola">¡Hola!, Soy</h4></a>
             <h1>Adriana Villafañe</h1>
-            <span>¿Que cuantos años tengo?
+            <p>¿Que cuantos años tengo?
                 ¡Que importa eso!
                 ¡Tengo la edad que quiero y siento!
                 La edad en que puedo: -Gritar sin miedo,
                 lo que pienso...Hacer lo que deseo, sin miedo
                 al fracaso, o al que diran. Pues tengo 
                 la experiencia de los años vividos y la fuerza
-                de la convicción de mis deseos...</span>
-                <span>¡Que importa si cumplo cuarenta, cincuenta o sesenta!
+                de la convicción de mis deseos...</p>
+                <p>¡Que importa si cumplo cuarenta, cincuenta o sesenta!
                     Pues lo que importa:¡Es la edad que siento!
-                </span>
+                </p>
               <div>
             <button class="boton">Lo que hago</button>   
             </div>    
@@ -162,11 +167,11 @@
           </section>
 
        <section class="contacto">
-            <div class="contactoA">
-            <a name="contactame"><h4>Contactame</h4></a>
+                 <div class="contactoA">
+            <a name="contactame"><h2>Contactame</h2></a>
             <p>Te dejo como contactarme!</p>
-            <ul id="contacto">
-                 <li> <a href="https://twitter.com/">
+            <ul id="buscame">
+              <li> <a href="https://twitter.com/">
                 <i class="fa-brands icono-contacto fa-twitter"></i><span>@tsade</span>
               </a>
               </li>
@@ -175,20 +180,23 @@
               <i class="fa-brands icono-contacto fa-github-alt"></i><span>AdrianaVillafane</span>
             </a>
             </li>
-            <a href="https://facebook.com">
-              <i class="fa-brands icono-contacto fa-facebook"></i><span>Adriana Villafañe</span>
+            <li>
+            <a href="mailto: tsade@live.com.ar">
+              <i class="fa-solid icono-contacto fa-envelope"></i><span>Adriana Villafañe</span>
             </a>
-           
+          </li>
+          <li>
             <a href="https://www.linkedin.com/in/adriana-villafa%C3%B1e-b4b981255/">
-              <i class="fa-brands icono-contacto fa-linkedin-in"></i><span>AdrianaVillafane<span></span>
+              <i class="fa-brands icono-contacto fa-linkedin-in"></i><span>AdrianaVillafane</span>
             </a>
+            </li>
                 </ul>
             </div>
             <div class="contactoB">
-            <h4>Escribime</h4>
+            <h2>Escribime</h2>
 
             <form id="form-contacto">
-              <fieldset>
+              
               <label for="nombre-usuario">Nombre</label>
           <input id="nombre-usuario" type="text" placeholder="Anna" required />
           <label for="apellido-usuario">Apellido</label>
@@ -202,15 +210,13 @@
           <label for="input-submit"></label>
           <input id="input-submit" type="submit" >
 
-          
-
-              </fieldset>
+                       
           </form>
             </div>
           </section>
          
         </main>
-        <footer>
+        <footer id="piecito">
           <nav class="pie">
             <span>
               <a href="#hola">Hola</a>
@@ -226,6 +232,27 @@
             </span>
             <a href="#"> <img class="arrow-icon" src="img/circle-up-solid.svg" alt="arrow icon"> </a>
           </nav>
+          <div class="redes">
+            <a href="https://twitter.com/">
+              <i class="fa-brands icono-contacto fa-twitter"></i>
+              </a>
+              <a href="https://github.com/AdrianaVillafane">
+                <i class="fa-brands icono-contacto fa-github-alt"></i>
+                </a>
+                <a href="mailto: tsade@live.com.ar">
+                  <i class="fa-solid icono-contacto fa-envelope"></i>
+                </a>
+            <i class="fa-brands icono-contacto fa-linkedin-in"></i>
+          </div>
+        <div class="creditos">
+          <p>Hecho con mucho amor
+          <i class="fa-solid credito fa-heart" style="color: #fb1404;"></i></p>
+          <p>... y un poco de magia!
+          <i class="fa-solid credito fa-wand-magic-sparkles"></i></p>
+          <p>...bueno, mucha magia!
+            <i class="fa-solid fa-hat-wizard"></i></p>
+          
+        </div>
         </footer>
       </body>
     </html>

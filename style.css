@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 @font-face {
   font-family: "Boneribbon-Bold";
   src: url("/font/Boneribbon-Bold/Boneribbon\ Bold.ttf");
@@ -11,22 +13,38 @@
 body {
   background-color: rgb(183, 19, 117);
 }
-nav {
+
+
+#navBar  {
   width: 100vw;
   background-color: rgb(139, 24, 116);
   display: flex;
   justify-content: flex-end;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  padding: 2vw;
-  
+   font-size: 2rem;
+   padding: 1rem 3 rem;
+   position: sticky;
+   top: 0;
 }
-
+#barraHeader{
+  margin: 0 8rem;
  
-}
+  }
+  
+
+
+
  li{
   display: inline;
   text-align: center;
-  margin: 0 10px 0 0;
+   padding: 0.8rem;
+  margin: 0.5rem;
+ 
+}
+nav li :hover{
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  color: rgb(139, 24, 116);
 }
 ul{
   display: flex;
@@ -35,12 +53,14 @@ ul{
     list-style: none;
 }
 
+.hola{
+  font-size: 3.12rem;
+}
 
-a {
+ a {
   color: rgb(247, 149, 64);
-  padding: 10px;
-  font-size: 2em;
-  text-decoration: none;
+    text-decoration: none;
+   
 }
 
 .icon {
@@ -48,7 +68,18 @@ a {
 }
 h1 {
   font-family: "Boneribbon-Bold";
-  font-size: 3em;
+  font-size: 4rem;
+}
+h2 {
+  
+  font-family: "Boneribbon-Bold";
+  color: black;
+  font-size: 2.5rem;
+}
+h3{
+  color: black;
+  font-size:1.5rem ;
+  height: 2rem;
 }
 .presentacion {
   width: 100vw;
@@ -61,10 +92,10 @@ h1 {
 }
 .presentacionTexto {
   width: 50%;
-  margin: 10px 60px;
+  margin: 0.6rem 3.75rem;
   line-height: 1.5;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 2.4rem;
   font-family: "Dancing Script", cursive;
 }
 .presentacionImg {
@@ -72,32 +103,39 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 1.9rem;
 }
 img {
-  border-radius: 30px;
+  border-radius: 1.8rem;
+  border: 0.37rem double black;
 }
 .boton {
-  background-color: rgb(252, 79, 0);
-  padding: 10px 30px;
-  border-radius: 30px;
-  font-weight: 700;
+  background-color: rgb(247, 149, 64);
+  padding: 0.62rem 1.87rem;
+  border: 0.31rem  double black;
+  border-radius: 1.25rem;
+  font-size: 1.25rem;
   margin-left: 15%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
 .conocimiento {
   text-align: center;
-  font-size: x-large;
   line-height: 1.5;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 150px 100px;
+  margin: 9.37rem 1.6rem;
 }
-.fa-brands {
-  font-size: 180px;
+.conocimiento p{
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+}
+.logoConocimiento .fa-brands {
+  font-size: 11.25rem;
+ 
 }
 .contenedorConocimiento {
   width: 70vw;
@@ -106,17 +144,17 @@ img {
   flex-wrap: wrap;
 }
 .logoConocimiento {
-  border: 4px solid grey;
+  border: 0.25rem  solid grey;
   border-radius: 20px;
-  margin: 20px 20px;
+  margin: 1.25rem 1.25rem;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   width: 28%;
   height: 50%;
-  padding: 10px;
+  padding: 0.62rem;
 }
 
 .logoConocimiento:hover {
-  border: 4px solid rgb(252, 79, 0);
+  border: 0.25rem  solid rgb(252, 79, 0);
 }
 
 /*CITA*/
@@ -126,19 +164,20 @@ img {
 .frase {
   text-align: center;
   height: 75vh;
-  margin: 80px 50px;
+  margin: 5rem 3.12rem;
   background-color: rgb(247, 149, 64);
   border-radius: 30px;
   border: 4px solid rgb(252, 79, 0);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  line-height: 0.5;
-  font-size: 2.5em;
+  line-height: 1.5;
+  font-size: 2.5rem;
  
 }
-
-h2 {
-  font-size: 75px;
+.frase p{
+  font-family: "Dancing Script", cursive;
 }
+
+
 .proyectos {
   text-align: center;
 }
@@ -150,57 +189,55 @@ h2 {
   justify-content: center;
 }
 .proyecto {
-  border: 4px solid grey;
+  border: 0.25rem solid grey;
   border-radius: 20px;
-  margin: 20px 20px;
+  margin: 1.25rem 1.25rem;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   width: 26vw;
   height: 30vh;
   padding: 10px;
   text-align: center;
-  font-size: 20px;
+ 
 }
 .proyecto:hover {
-  border: 4px solid rgb(252, 79, 0);
+  border: 0.25rem solid rgb(252, 79, 0);
 }
 
 img {
-  width: 200px;
+  width: 12.5rem;
 }
 .arrow-icon {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
-  width: 50px;
-  height: 50px;
+  right: 0.62rem;
+  bottom: 0.62rem;
+  width: 3.12rem;
+  height: 3.12rem;
 }
 .contacto {
-  width: 88vw;
+  width: 72vw;
   min-height: 90vh;
   background-color: rgb(139, 24, 116);
   display: flex;
-  justify-content: center;
-  border-radius: 30px;
+  justify-content: start;
+  border-radius: 1.87rem;
   border: 3px solid grey;
-  padding: 30px;
-  margin: 50px auto;
-}
-p{
-  font-size: 20px;
-}
-.contactoA {
-  width: 38vw;
-  height: 80vh;
-  border: 3px solid grey;
-  border-radius: 20px;
-  font-size: 0.9em;
-  text-align: center;
-  background-color: rgb(183, 19, 117);
-  margin-right: 10px;
-  line-height: 2;
+  padding: 0.18rem;
+  margin: 6rem auto;
+  
+  
 }
 
-#contacto {
+.contactoA {
+  width: 35vw;
+  height: 80vh;
+    font-size: 1.8rem;
+  text-align: center;
+  margin: 0.31rem;
+  line-height: 2;
+  
+}
+
+#buscame {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -208,76 +245,98 @@ p{
 }
 .icono-contacto {
   color: rgb(252, 79, 0);
-  font-size: 30px;
+  font-size: 1.87rem;
   background-color: rgb(183, 19 117);
-  padding: 10px;
-
-  margin-left: 20px;
+  padding: 0.62;
+  margin-left: 1.25rem;
 }
 .icono-contacto:hover {
   background-color: rgb(139, 24, 116);
-  border-radius: 50px;
+  border-radius: 3.12rem;
   color: rgb(247, 149, 64);
-  height: 50px;
+  height: 3.12rem;
 }
 .contactoB {
-  width: 40vw;
+  width: 35vw;
   height: 80vh;
-  border: 2px solid grey;
-  font-size: 1.8em;
+   font-size: 1.8rem;
   text-align: center;
-  padding-top: 30px;
-  background-color: rgb(183, 19, 117);
+  margin: 0.93rem;
+ 
 }
-fieldset {
-  width: 99.5%;
-  height: 75%;
-  border-radius: 10px;
-  text-align: start;
-}
+
 #form-contacto {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  height: 26vw;
-  justify-content: space-around;
-  border: 3px solid grey;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgb(247, 149, 64);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 1.87rem;
+   flex-wrap: wrap;;
+  width: 8rem;
+  height: 12rem;
+  margin-top: 4rem;
+  
 }
-label {
-  margin: 10px 15px;
-}
+
 input {
-  width: 250px;
+  width: 20rem;
   margin: 5px;
-  font-size: 0.9em;
-  border-radius: 10px;
+  font-size: 2rem;
+  border-radius: 0.62rem;
 }
 
 #input-submit {
   width: 3em;
   text-align: center;
-  padding: 2px;
-  border-radius: 5px;
+  padding: 0.12rem;
+  border-radius: 0.62rem;
+}
+#piecito{
+  width: 100vw;
+  height: 35vh;
+    background-color: rgb(139, 24, 116);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
+   font-size: 1rem;
+   padding: 3rem;
+}
+ .redes i{
+ 
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.redes i :hover{
+  background-color: rgb(139, 24, 116) ;
+  padding: 1rem;
+  border-radius: 3.12rem;
+ 
+}
+.creditos{
+  background-color: antiquewhite;
+  
+}
+.credito{
+  width: 1rem;
+  
 }
 
 @media (max-width: 768px) and (min-width: 424px) {
-  .fa-brands {
-    font-size: 4em;
+  .logoConocimiento .fa-brands {
+    font-size: 4rem;
+   
+  }
+  .frase{
+    font-size: 1.6rem;
   }
 }
-@media (max-width: 425px) and (min-width: 376px) {
-  .fa-brands {
-    font-size: 3em;
+@media (max-width: 425px) and (min-width: 380px) {
+  .logoConocimiento .fa-brands {
+    font-size: 3rem;
+   
   }
   .logoConocimiento {
     width: 35%;
   }
+ 
   h3 {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   
   .icon{
@@ -285,21 +344,29 @@ input {
   }
 }
 @media (max-width: 375px) and (min-width: 280px) {
-  .barra {
+  #barraHeader {
     display: none;
+  }
+  .icon{
+    display: inline;
   }
 
   .frase {
     height: 100vh;
     line-height: normal;
-    font-size: 0.7em;
+    font-size: 0.85rem;
   }
-  .logoConocimiento {
+  .logoConocimiento{
     width: 20vw;
     height: 15vh;
   }
+  .logoConocimiento .fa-brands {
+    font-size: 2.5rem;
+   
+  }
+  }
   h3 {
-    font-size: 10px;
+    font-size: 0.6rem;
   }
   .fa-brands {
     font-size: 1.5em;
