@@ -14,7 +14,7 @@ body {
   background-color: rgb(183, 19, 117);
 }
 
-
+/*barra de navegacion superior*/
 #navBar  {
   width: 100vw;
   background-color: rgb(139, 24, 116);
@@ -26,11 +26,6 @@ body {
    position: sticky;
    top: 0;
 }
-#barraHeader{
-  margin: 0 8rem;
- 
-  }
-
 
  li{
   display: inline;
@@ -350,12 +345,16 @@ input {
   
   .icon{
     display: block;
+    margin: 0.5rem 1rem;
   }
   img{
     width: 5rem;
   }
    h3{
     font-size: 1rem;
+  }
+  #barraHeader{
+    display: none;
   }
 }
 
