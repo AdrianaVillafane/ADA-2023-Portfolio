@@ -11,6 +11,7 @@
   src: url("/font/Boneribbon-Bold/Boneribbon\ Bold.ttf");
 }
 body {
+  width: 100%;
   background-color: rgb(183, 19, 117);
 }
 
@@ -274,6 +275,11 @@ border-radius: 50%;
 background-color: rgb(139, 24, 116);
 margin:0.25rem 1rem;
 }
+.icono-contacto:hover{
+  background-color: rgb(247, 149, 64);
+  border-radius: 50%;
+  color:rgb(139, 24, 116)
+}
 input{
   border-radius: 0.3rem;
   font-size: 1.5rem;
@@ -282,31 +288,39 @@ input{
 textarea{
   margin: 1rem;
 }
-
-#piecito{
+.piecito{
   width: 100vw;
-  height: 35vh;
-    background-color: rgb(139, 24, 116);
+  height: 60vh;
+  background-color: rgb(139, 24, 116);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
-   font-size: 1rem;
-   padding: 3rem;
-}
- .redes i{
- 
-  width: 1rem;
-  height: 1rem;
-}
-.redes i :hover{
-  background-color: rgb(139, 24, 116) ;
-  padding: 1rem;
-  border-radius: 3.12rem;
- 
-}
-.creditos{
-  background-color: antiquewhite;
+   font-size: 1.2rem;
   
+}
+.piecito a{
+  padding: 1rem 2rem;
+}
+
+.pie{
+  flex-direction: row;
+  margin: 2rem auto;
+}
+ .redes{
+  margin: 1rem auto;
+ }
+
+.creditos{
+  background-color: rgb(247, 149, 64);
+  width: 13rem;
+  margin: 0.5rem auto;
+  text-align: center;
+  line-height: 1;
+  font-weight: 700;
+  border: 0.25rem double black;
+  border-radius: 0.25rem;
+  padding: 0.2rem 0.2rem;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
 }
 .credito{
   width: 1rem;
