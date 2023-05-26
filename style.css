@@ -15,6 +15,7 @@ body {
 }
 
 /*barra de navegacion superior*/
+
 .navBar  {
   width: 100vw;
   background-color: rgb(139, 24, 116);
@@ -23,6 +24,8 @@ body {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
    font-size: 1rem;
    padding: 1.5rem 4rem;
+   position:sticky;
+   top:0;
   
 }
 li{
@@ -161,18 +164,18 @@ img {
 }
 .frase {
   text-align: center;
-  margin: 2rem 3rem;
+  margin: 4rem 4rem;
   background-color: rgb(247, 149, 64);
   border-radius: 30px;
   border: 4px solid rgb(252, 79, 0);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  line-height: 1;
-  padding: 0.5rem;
+  line-height: 1.2;
+  padding: 1rem;
   
 }
 .frase p{
   font-family: "Dancing Script", cursive;
-  font-size: 3rem;
+  font-size: 3.2rem;
  
 }
 .fa-hand-holding-heart{
@@ -228,6 +231,7 @@ img {
   border-radius: 2rem;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
 .contactoContainer{
   width: 70%;
   height: 20rem;
@@ -313,6 +317,11 @@ background-color: violet;
    h3{
     font-size: 1rem;
   }
+  .navBar{
+    width: 100%;
+    position:sticky;
+    top: 0;
+  }
   .barraHeader{
     display: none;
   }
@@ -369,5 +378,8 @@ background-color: violet;
   }
   .contactoRedes, .contactoForm{
     width: 98%;
+  }
+  .sectionContacto h2{
+    font-size: 2rem;
   }
 }
