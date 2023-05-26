@@ -319,6 +319,9 @@ textarea{
     font-size: 1.6rem;
     line-height: normal;
   }
+  .sectionContacto{
+    width: 99%;
+  }
 }
 @media (max-width: 480px) and (min-width: 380px) {
   .logoConocimiento .fa-brands {
@@ -351,6 +354,9 @@ textarea{
   }
   .barraHeader{
     display: none;
+  }
+  .sectionContacto{
+    width: 99%;
   }
   .contactoContainer{
     flex-direction: column;
@@ -401,6 +407,9 @@ textarea{
   }
   .barraHeader{
     display:none;
+  }
+  .sectionContacto{
+    width: 99%;
   }
   .contactoContainer{
     flex-direction: column;
