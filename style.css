@@ -350,6 +350,8 @@ textarea{
   }
   .contactoContainer{
     flex-direction: column;
+    width: 100%;
+    height: 40rem;
   }
   .contactoRedes, .contactoForm{
     width: 98%;
