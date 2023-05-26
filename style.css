@@ -227,32 +227,53 @@ img {
   justify-content: center;
   background-color: rgb(139, 24, 116);
   margin:6rem auto;
-  width: 75%;
+  width: 70%;
   border-radius: 2rem;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .contactoContainer{
-  width: 70%;
-  height: 20rem;
-  background-color: antiquewhite;
-  margin: 3rem;
+  width: 85%;
+  height: 25rem;
+   margin: 3rem;
   display: flex;
   justify-content: space-around;
+ 
 }
 .contactoRedes, .contactoForm{
  
   width: 45%;
-  border: 0.12rem solid grey;
+  height: 100%;
+  border: 0.25rem solid grey;
   margin: 0.5rem;
   border-radius: 2rem;
   flex-direction: row;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: bisque;
+  padding: 1rem 3rem;
+}
+.contactoForm{
+ 
+  font-size: 1.5rem;
+  
+}
+.contactoRed{
+  font-size: 2rem;
+  margin:0.5rem 2rem;
 }
 .icono-contacto{
 padding: 0.5rem;
 border-radius: 50%;
-background-color: violet;
+background-color: rgb(139, 24, 116);
+margin:0.25rem 1rem;
+}
+input{
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  
+}
+textarea{
+  margin: 1rem;
 }
 
 #piecito{
