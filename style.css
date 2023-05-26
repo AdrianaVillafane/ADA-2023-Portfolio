@@ -278,8 +278,9 @@ background-color: violet;
     font-size: 4rem;
    
   }
-  .frase{
+  .frase p{
     font-size: 1.6rem;
+    line-height: normal;
   }
 }
 @media (max-width: 480px) and (min-width: 380px) {
@@ -306,8 +307,14 @@ background-color: violet;
    h3{
     font-size: 1rem;
   }
-  #barraHeader{
+  .barraHeader{
     display: none;
+  }
+  .contactoContainer{
+    flex-direction: column;
+  }
+  .contactoRedes, .contactoForm{
+    width: 98%;
   }
 }
 
@@ -323,8 +330,8 @@ background-color: violet;
 
   .frase p{
    
-    line-height: normal;
-    font-size: 0.85rem;
+    line-height: 0.1;
+    font-size: 0.5rem;
   }
   .logoConocimiento{
     width: 20vw;
@@ -342,10 +349,19 @@ background-color: violet;
     font-size: 1.5em;
   }
   .frase {
-    height: 60vw;
+    height: 50vw;
   }
   img{
     width: 5rem;
     border-radius: 50%;
+  }
+  .barraHeader{
+    display:none;
+  }
+  .contactoContainer{
+    flex-direction: column;
+  }
+  .contactoRedes, .contactoForm{
+    width: 98%;
   }
 }
