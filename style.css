@@ -250,8 +250,11 @@ img {
   flex-direction: row;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   background-color: bisque;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   font-size: 1.5rem;
+}
+.contactoForm{
+  text-align: center;
 }
 
   .contactoRedes:hover {
