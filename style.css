@@ -241,11 +241,13 @@ img {
   justify-content: space-around;
 }
 .contactoRedes, .contactoForm{
+ 
   width: 45%;
   border: 0.12rem solid grey;
   margin: 0.5rem;
   border-radius: 2rem;
   flex-direction: row;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .icono-contacto{
 padding: 0.5rem;
