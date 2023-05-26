@@ -41,7 +41,11 @@ li{
     align-items: end;
     list-style: none;
 }
-
+/*icono hamburguesa*/
+.icon {
+  display: none;
+}
+/*header, presentacion*/
 .hola{
   font-size: 3rem;
 }
@@ -51,10 +55,7 @@ li{
     text-decoration: none;
    
 }
-/*icono hamburguesa*/
-.icon {
-  display: none;
-}
+
 h1 {
   font-family: "Boneribbon-Bold";
   font-size: 4.5rem;
@@ -216,11 +217,16 @@ img {
   width: 3.12rem;
   height: 3.12rem;
 }
+/*contacto*/
 
 .sectionContacto{
   display: flex;
   justify-content: center;
   background-color: rgb(139, 24, 116);
+  margin:6rem auto;
+  width: 75%;
+  border-radius: 2rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .contactoContainer{
   width: 70%;
