@@ -165,13 +165,13 @@ img {
   border-radius: 30px;
   border: 4px solid rgb(252, 79, 0);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  line-height: 1.5;
+  line-height: 1;
   padding: 0.5rem;
   
 }
 .frase p{
   font-family: "Dancing Script", cursive;
-  font-size: 4rem;
+  font-size: 3rem;
  
 }
 .fa-hand-holding-heart{
