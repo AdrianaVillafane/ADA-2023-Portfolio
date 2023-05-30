@@ -7,11 +7,17 @@ Este Proyecto consta _(actualmente)_ de una landing page, en una sola rama, en t
 
 ## Demo
 [Visita el proyecto Deployado](https://ada-2023-portfolio.vercel.app/)
-
-## Estos son los lenguajes utilidados en el proyecto,_actualmente solo los señalados con x, son los que se ha utilidado_*igualmente se ira actualizando con el devenir de las clases y diferentes modulos*
+## Lenguajes 
+ Estos son los lenguajes utilidados en el proyecto,_actualmente solo los verificados, son los que se han utilidado_*igualmente se ira actualizando con el devenir de las clases y diferentes modulos*
 
 - [ ] REACT.JS
 - [ ] SASS
 - [ ] JavaScript
 - [X] HTML5
 - [X] CSS3
+
+## Agradecimientos
+
+-Para ADA en especial, por darme una oportunidad única,_estoy sumamente agradecida, porque creyeron en mi_
+-A Carola, nuestra profe, por ser tan didactica, en su forma de explicar
+-A Stefi, nuestra tutora, por la paciencia, y por estar
