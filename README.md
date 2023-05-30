@@ -19,8 +19,12 @@ Este Proyecto consta _(actualmente)_ de una landing page, en una sola rama, es t
 - [X] HTML5
 - [X] CSS3
 
+![Dias sin dormir](img/Mafalda_mordo.webp)
+
 ## Agradecimientos
 
 * Para **ADA** en especial, por darme una oportunidad única,_estoy sumamente agradecida, porque creyeron en mi_
 * A Carola, nuestra profe, por ser tan didactica, en su forma de explicar
 * A Stefi, nuestra tutora, por la paciencia, y por estar
+
+![Pero estoy orgullosa de cada paso](img/720.webp)
