@@ -383,6 +383,12 @@ textarea{
   .contactoRedes, .contactoForm{
     width: 98%;
   }
+  .pie{
+    display: none;
+  }
+  .icono-contacto{
+       margin:0.25rem 0.3rem;
+    }
 }
 
 
@@ -437,4 +443,11 @@ textarea{
   .sectionContacto h2{
     font-size: 2rem;
   }
+  .pie{
+    display:none;
+  } 
+  .icono-contacto{
+    margin:0.25rem 0.3rem;
+ }
+
 }
