@@ -23,14 +23,14 @@ body {
   display: flex;
   justify-content: flex-end;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-   font-size: 1rem;
+   font-size: 1.5rem;
    padding: 1.5rem 4rem;
-   position:sticky;
+   position:fixed;
    top:0;
   
 }
 li{
-  padding: 0.5rem;
+  padding: 0.8rem;
   list-style: none;
 }
 
@@ -51,6 +51,7 @@ li{
 }
 /*header, presentacion*/
 .hola{
+  margin-top: 6rem;
   font-size: 3rem;
 }
 
@@ -141,6 +142,7 @@ img {
   min-height: 85vh;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .logoConocimiento {
   border: 0.25rem  solid grey;
@@ -214,13 +216,7 @@ img {
   height: 8rem;
   border-radius: 50%;
 }
-.arrow-icon {
-  position: fixed;
-  right: 0.62rem;
-  bottom: 0.62rem;
-  width: 3.12rem;
-  height: 3.12rem;
-}
+
 /*contacto*/
 
 .sectionContacto{
@@ -252,7 +248,7 @@ img {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   background-color: bisque;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .contactoForm{
   text-align: center;
@@ -273,7 +269,7 @@ img {
 padding: 0.5rem;
 border-radius: 50%;
 background-color: rgb(139, 24, 116);
-margin:0.25rem 1rem;
+margin:0.25rem 0.8rem;
 }
 .icono-contacto:hover{
   background-color: rgb(247, 149, 64);
@@ -290,7 +286,7 @@ textarea{
 }
 .piecito{
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   background-color: rgb(139, 24, 116);
   display: flex;
   flex-direction: column;
@@ -299,12 +295,17 @@ textarea{
   
 }
 .piecito a{
-  padding: 1rem 2rem;
+  padding: 1rem 0.8rem;
 }
 
 .pie{
   flex-direction: row;
   margin: 2rem auto;
+}
+.pie span :hover{
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  color: rgb(139, 24, 116);
 }
  .redes{
   margin: 1rem auto;
@@ -339,7 +340,21 @@ textarea{
   .sectionContacto{
     width: 99%;
   }
-}
+  .proyecto{
+    width: 26vw;
+    height: 40vh;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+  }
+  }
+  
+
 @media (max-width: 480px) and (min-width: 380px) {
   .logoConocimiento .fa-brands {
     font-size: 3rem;
@@ -386,8 +401,8 @@ textarea{
   .pie{
     display: none;
   }
-  .icono-contacto{
-       margin:0.25rem 0.3rem;
+  a .icono-contacto{
+       margin:0.25rem 0.1rem;
     }
 }
 
@@ -446,8 +461,15 @@ textarea{
   .pie{
     display:none;
   } 
-  .icono-contacto{
-    margin:0.25rem 0.3rem;
+  a .icono-contacto{
+    margin:0.25rem 0.1rem;
  }
 
+}
+.arrow-icon {
+  position: fixed;
+  right: 0.62rem;
+  bottom: 0.62rem;
+  width: 3.12rem;
+  height: 3.12rem;
 }
