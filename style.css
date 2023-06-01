@@ -341,7 +341,7 @@ textarea{
   height: 3.12rem;
 }
 
-@media (max-width: 880px) and (min-width: 481px) {
+@media (max-width: 880px) and (min-width: 426px) {
   .logoConocimiento .fa-brands {
     font-size: 4rem;
    
@@ -368,13 +368,14 @@ textarea{
   }
   
 
-@media (max-width: 480px) and (min-width: 380px) {
+@media (max-width: 425px) and (min-width: 380px) {
   .logoConocimiento .fa-brands {
     font-size: 3rem;
    
   }
   .logoConocimiento {
     width: 35%;
+    
   }
  
   .logoConocimiento h3 {
@@ -399,17 +400,28 @@ textarea{
   }
   .barraHeader{
     display: none;
+    
+  }
+  .frase p{
+    font-size: 2rem;
+  }
+  .proyecto{
+    width: 35vw;
+    height: 40vh;
+    padding: 10px;
+    text-align: center;
+   
   }
   .sectionContacto{
     width: 99%;
   }
   .contactoContainer{
     flex-direction: column;
-    width: 100%;
+    width: 95%;
     height: 45rem;
   }
   .contactoRedes, .contactoForm{
-    width: 98%;
+    width: 90%;
   }
   .pie{
     display: none;
@@ -419,88 +431,3 @@ textarea{
     }
 }
 
-
-
-@media (max-width: 379px) and (min-width: 280px) {
-  #barraHeader {
-    display: none;
-  }
-  .icon{
-    display: inline;
-  }
-
-  .frase p{ 
-     font-size: 1rem;
-  }
-  .fa-quote-left, .fa-quote-right{
-    width: 1rem;
-  }
-  .frase .fa-hand-holding-heart{
-    width: 0.8rem;
-  }
-  .logoConocimiento{
-    width: 20vw;
-    height: 15vh;
-  }
-  .logoConocimiento .fa-brands {
-    font-size: 2.5rem;
-   
-  }
-  
-  .logoConocimiento h3 {
-    font-size: 0.8rem;
-  }
-  .fa-brands {
-    font-size: 1rem;
-  }
-  .frase {
-    width: 80vw;
-    height: 80vh;
-    margin: auto;
-  }
-  .proyecto{
-    width: 35vw;
-    height: 40vh;
-  }
-  .proyecto h3{
-    font-size: 1rem;
-  }
-  img{
-    width: 5rem;
-    border-radius: 50%;
-  }
-  .barraHeader{
-    display:none;
-  }
-  
-  .sectionContacto{
-    width: 98%;
-    
-    margin:1rem;
-    padding: 1rem;
-  }
-  .contactoContainer{
-    flex-direction: column;
-    
-  }
-  .contactoRedes, .contactoForm{
-    width: 86%;
-    padding: 3px;
-  }
-  .contactoRedes .icono-contacto{
-    width: 2rem;
-  }
-  .sectionContacto h2{
-    font-size: 1.8rem;
-  }
-  input{
-    font-size: 1rem;
-  }
-  .pie{
-    display:none;
-  } 
-  a .icono-contacto{
-    margin:0.25rem 0.1rem;
- }
-
-}
