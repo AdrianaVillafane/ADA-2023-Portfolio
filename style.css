@@ -283,7 +283,7 @@ margin:0.25rem 0.8rem;
   color:rgb(139, 24, 116)
 }
 input{
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   font-size: 1.5rem;
   
 }
@@ -418,10 +418,13 @@ textarea{
   .contactoContainer{
     flex-direction: column;
     width: 95%;
-    height: 45rem;
+    height: 55rem;
   }
   .contactoRedes, .contactoForm{
     width: 90%;
+  }
+  input{
+    font-size: 1rem;
   }
   .pie{
     display: none;
